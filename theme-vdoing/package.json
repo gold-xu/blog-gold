@@ -7,11 +7,11 @@
   },
   "homepage": "https://github.com/xugaoyi/vuepress-theme-vdoing#readme",
   "bugs": {
-    "url": "https://github.com/xugaoyi/vuepress-theme-vdoing/issues"
+    "url": "https://github.com/gold-xu/blog-gold/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xugaoyi/vuepress-theme-vdoing.git"
+    "url": "git+https://github.com/gold-xu/blog-gold.git"
   },
   "dependencies": {
     "@better-scroll/core": "^2.0.0-beta.6",
