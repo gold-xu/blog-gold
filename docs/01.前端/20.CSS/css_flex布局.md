@@ -33,4 +33,4 @@ item在交叉轴对齐方式
 * stretch：默认值，元素拉伸
 * center：中心
 * flex-start：容器开头
-* flex-end 容器结束
+* flex-end: 容器结束

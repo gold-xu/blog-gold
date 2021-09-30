@@ -11,6 +11,7 @@ module.exports = [
         items: [
           { text: 'HTML基础结构', link: '/pages/4f192e/' },
           { text: 'HTML标签', link: '/pages/8a1caa/' },
+          { text: '行内元素与块级元素', link: '/pages/6c335a/' },
         ],
       },
       {
@@ -18,6 +19,10 @@ module.exports = [
         items: [
           { text: 'CSS基础', link: '/pages/26e3de/' },
           { text: 'CSS选择器', link: '/pages/56848d/' },
+          { text: 'CSS盒模型', link: '/pages/eeb020/' },
+          { text: 'CSS的BFC', link: '/pages/84e477/' },
+          { text: 'CSS_flex布局', link: '/pages/56ad11/' },
+          { text: 'CSS浮动与清除浮动', link: '/pages/8e26ce/' },
         ],
       },
     ],
