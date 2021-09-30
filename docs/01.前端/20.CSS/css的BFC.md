@@ -20,3 +20,17 @@ tags:
 * 表格标题： display为table
 * 匿名表格单元格元素：display为table、table-row、table-row-group、table-header-grounp、table-footer-group或inline-table
 * overflow值不为visible
+* display 值不为flow-root
+* contain 值为layout、content或paint
+* 弹性元素： display为flex或inline-flex的直接子元素
+* 网格元素：display为grid或inline-grid的直接子元素
+* 多列容器：column-count或column-width不为auto，包括column-count为1
+* column-span为all的元素始终会创建一个新的BFC，即使该元素没有包裹在一个多列容器中
+
+## 特性
+* BFC内部的块级盒会在垂直方向上一个接一个排列
+* 计算BFC的高度时，浮动元素也会参与计算
+* 同一个BFC下的相邻块级元素可能会发生外边距重叠 
+* BFC元素不会和它的子元素发生外边距折叠
+* 浮动元素的区域不会和BFC重叠
+* BFC是一个独立的容器，外面的元素不会影响BFC内部，反之亦然

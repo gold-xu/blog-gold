@@ -1,0 +1,36 @@
+---
+title: css_flex布局
+date: 2021-09-30 14:22:41
+permalink: /pages/56ad11/
+categories:
+  - 前端
+  - CSS
+tags:
+  - 
+---
+## 定义
+弹性盒子(flexbox)是替代浮动布局的好方案，适应于不同屏幕大小以及设备类型。
+
+#### 组成
+弹性盒子由弹性容器(container)和子元素(item)组成：元素的display设定为flex或inline-flex后成为弹性容器，容器内部包含一个或多个弹性子元素。
+
+#### 特性
+##### flex-direction
+指定弹性容器中子元素的排列方式
+* row： 默认值，水平
+* row-reverse: 与row相反顺序
+* column：垂直
+* column-reverse：与column相反顺序
+##### justify-content
+* item在主轴方向上对齐方式
+* flex-start：默认值，item位于项目开头
+* flex-end： item位于项目结尾
+* center： item位于项目中心
+* space-between：item位于各行之间留空白的容器内
+* space-around：各行之前，之间，之后都留有空白
+##### align-items
+item在交叉轴对齐方式
+* stretch：默认值，元素拉伸
+* center：中心
+* flex-start：容器开头
+* flex-end 容器结束
