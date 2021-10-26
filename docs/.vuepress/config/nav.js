@@ -8,6 +8,7 @@ module.exports = [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
         text: 'HTML',
+        link: '/html/',
         items: [
           { text: 'HTML基础结构', link: '/pages/4f192e/' },
           { text: 'HTML标签', link: '/pages/8a1caa/' },
@@ -16,6 +17,7 @@ module.exports = [
       },
       {
         text: 'CSS',
+        link: '/css/',
         items: [
           { text: 'CSS基础', link: '/pages/26e3de/' },
           { text: 'CSS选择器', link: '/pages/56848d/' },
@@ -26,6 +28,40 @@ module.exports = [
           { text: 'CSS布局', link: '/pages/a15616/' },
           { text: 'CSS浮动与清除浮动', link: '/pages/80c055/' },
           { text: 'css新特性', link: '/pages/558f48/' },
+        ],
+      },
+      {
+        text: 'JavaScript基础',
+        items: [{
+          text: 'JS基础',
+          link: '/pages/0ccc72/',
+          items: [
+            { text: 'JS基本概念', link: '/pages/0ccc72/' },
+            { text: 'JS变量与声明', link: '/pages/28aebc/' },
+            { text: 'JS数据类型', link: '/pages/1be7d0/' },
+            { text: 'JS数据类型检测', link: '/pages/77b805/' },
+          ],
+        },
+        { text: 'v8执行代码', link: '/pages/3b99aa/' },
+        {
+          text: '调用堆栈',
+          link: '/pages/469343/',
+          items: [
+            { text: '执行上下文', link: '/pages/469343/' },
+            { text: '变量对象', link: '/pages/577d23/' },
+            { text: '作用域链', link: '/pages/68428e/' },
+            { text: 'this', link: '/pages/aa5a6c/' },
+            { text: '内存空间', link: '/pages/808c3d/' },
+          ],
+        },
+        {
+          text: '作用域和闭包',
+          link: '/pages/620c4d/',
+          items: [
+            { text: '作用域', link: '/pages/620c4d/' },
+            { text: '闭包', link: '/pages/623094/' },
+          ],
+        },
         ],
       },
     ],
