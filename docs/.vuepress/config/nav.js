@@ -75,6 +75,14 @@ module.exports = [
     ],
   },
   {
+    text: 'linux',
+    link: '/linux/',
+    items: [
+      { text: '虚拟机', link: '/pages/0194e8/' },
+      { text: 'linux目录', link: '/pages/23f178/' },
+    ],
+  },
+  {
     text: '技术',
     link: '/technology/',
     items: [
